@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 import os
 import dj_database_url
-from pathlib import Path
-
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,8 +25,6 @@ SECRET_KEY = '8*+jtux04i%ld!l+si&i#_xhs@10j9ewri+7j4ic3n3-zhswu@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-SECURE_SSL_REDIRECT =True
 ALLOWED_HOSTS = ['greamhouse.herokuapp.com','127.0.0.1']
 
 
@@ -127,6 +123,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR , 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS=[(os.path.join(BASE_DIR, 'static'))]
+
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
