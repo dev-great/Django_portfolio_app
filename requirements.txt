@@ -1,4 +1,4 @@
-asgiref==3.4.0
+asgiref
 django-jinja==2.9.0
 CacheControl==0.12.6
 cachetools==4.2.2
