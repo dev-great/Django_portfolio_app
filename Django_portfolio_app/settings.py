@@ -27,7 +27,7 @@ SECRET_KEY = '8*+jtux04i%ld!l+si&i#_xhs@10j9ewri+7j4ic3n3-zhswu@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ALLOWED_HOSTS = ['greatmarshal-1778d18eaeed.herokuapp.com',
-                 '127.0.0.1', 'www.greatdev.xyz', 'greatdev.xyz']
+                 '127.0.0.1', 'www.devgreat.xyz', 'devgreat.xyz']
 
 
 # Application definition
